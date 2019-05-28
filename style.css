@@ -1,0 +1,86 @@
+body {
+   background-color: #333333;
+   color: #cccccc;
+}
+
+header, footer {
+   border: 2px solid green;
+   border-radius: 8px;
+   padding: 0 4%;
+   margin: 1% 2%;
+   margin-bottom: 0;
+   color: #dfb6b6;
+}
+
+.main-section {
+   border: 2px solid green;
+   border-radius: 8px;
+   margin-top: 0;
+   margin: 1% 2%;
+}
+
+.main-section > div {
+   background-color: #444444;
+   margin-bottom: 15px;
+   padding: 15px;
+}
+
+.main-section > div:last-child {
+   margin-bottom: 0;
+}
+
+.import-export {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.top-section {
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.top-section > div {
+   margin-right: 15px;
+}
+
+.top-section > div:last-child {
+   margin-right: 15px;
+}
+
+
+.status-section {
+}
+
+.import-export input {
+   padding: 10px;
+   background-color: #999999;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.inputs {
+}
+
+.map {
+   background-color: purple;
+}
+
+#mapid {
+   height: 400px;
+}
+
+.legend-color {
+   width: 20px;
+   height: 20px;
+   border: 1px solid black;
+   display: inline-block;
+}
+
+/* functional styles */
+.disabled {
+   color: grey;
+}
+
+.hidden {
+   display: none;
+}

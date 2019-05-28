@@ -1,0 +1,22 @@
+{
+  "name": "OnyonMaps",
+  "version": "1.0.0",
+  "description": "Onion Maps helps you display categorical for specific sites in an area.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/leaflet": "^1.4.4",
+    "gulp": "^4.0.2",
+    "gulp-log": "0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
